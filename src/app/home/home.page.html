@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Demo Client
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="bg-light">
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/demo-image.jpg">
+      <ion-card-subtitle>Client Tagline</ion-card-subtitle>
+      <ion-card-title>Client Name</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Convenient app for inserting claim information for your customers. Please click the button below to get started!
+    </ion-card-content>
+    <br>
+    <ion-button (click)="navToClaim($event)">Insert Claim</ion-button>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/demo-image.jpg">
+      <ion-card-subtitle>Info summary</ion-card-subtitle>
+      <ion-card-title>Information box</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+      sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </ion-card-content>
+    <br>
+    <ion-button (click)="navToCamera($event)">Upload Contract</ion-button>
+  </ion-card>
+  
+</ion-content>

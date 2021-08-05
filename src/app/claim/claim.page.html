@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>claim information</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form id="form">
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="first name" name="first-name"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="last name" name="last-name"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="street number" name="street"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="apt/po box" name="street2"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="city" name="city"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="state" name="state"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="zip" name="zip"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="email address" name="email"></ion-input>
+    </ion-item>
+    
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="text" placeholder="claim number" name="claim"></ion-input>
+    </ion-item>
+    <ion-button (click)="submitInfo($event)" expand="block" color="primary" shape="round">LOGIN</ion-button>
+  </form>
+</ion-content>
